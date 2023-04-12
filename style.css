@@ -1,0 +1,30 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    overflow-x: hidden;
+}
+h1{
+    
+    font-family: 'Moon Dance', cursive;
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+.social-menu{
+    display: flex;
+    justify-content: center;
+    
+}
+.social-menu a{
+    
+    
+    margin: 10px;
+    line-height: 20px;
+    
+}
+.social-menu a i{
+    transition: all 0.3s linear;
+}
+.social-menu a:hover i{
+    transform: scale(1.2);
+}
